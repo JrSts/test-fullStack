@@ -10,11 +10,6 @@ export class AppController {
     return await this.appService.getCountries();
   }
 
-  @Get("/id/:id")
-  async getCountry(@Param() params: any) {
-    return await this.appService.getCountry(params.id);
-  }
-
   @Get(":id")
   async getCountryInfo(@Param() params: any) {
     return await this.appService.getCountryInfo(params.id);
