@@ -1,0 +1,30 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#subcontainer{
+  display: flex;
+  flex-direction: row;
+}
+
+#boxInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  justify-content: center;
+
+}
+
+#loading {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#chart{
+  width: 80%;
+}
